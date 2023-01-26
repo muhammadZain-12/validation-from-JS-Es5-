@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald&family=Roboto:ital,wght@1,300;1,500&display=swap');
+
+body{
+    /* background-image: linear-gradient(90deg,#586062d2,#bcbbbe); */
+    /* background-color: black; */
+    color: black;
+    font-size: 18px;
+    font-family: 'Lato';
+    box-sizing: border-box;
+
+}
+
+#fieldName{
+    margin-left: 5px;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#div-input{
+    
+    width: 30%;
+    
+
+}
+
+.bor {
+    background-color: rgba(255, 255, 255, 0.083);
+    height: 50vh;
+    width: 50% !important;
+    /* box-shadow: 10px 10px 50px 0px black; */
+}
+
+/* .button {
+    height: 7vh;
+    border-radius: 10% !important;
+    width: 25vh;
+} */
+
+li {
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+}
+
+
+
+.parent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.child {
+    width: 50%;
+    
+}
+
+ul {
+    width: 100%;
+   display: flex;
+   justify-content :flex-start;
+   
+   
+}
+
+#unOrder{
+    flex-direction: column;
+}
+
+.deleteInput{
+    display: none;
+}
+
+#booleanCheck{
+    margin-left: 10px;
+}
+
+#input{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
